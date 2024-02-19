@@ -8,7 +8,8 @@
 }
 
 *{ 
-    margin: 0;
+    margin: 0; 
+    font-family: var(--fonte-padrão);
 } 
  
 :root{ 
@@ -34,7 +35,8 @@ header{
     text-align: center; 
     padding-top: 70px; 
     color: white; 
-    font-family: var(--fonte-cyber);
+    font-family: var(--fonte-cyber); 
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.445);
 } 
 nav{ 
     background-color: var(--cor001); 
@@ -42,7 +44,7 @@ nav{
     text-align: center; 
     font-family: var(--fonte-padrão); 
     border-radius: 0px 0px 5px 5px; 
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.39);
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.445);
     
 } 
 nav > a{ 
@@ -56,20 +58,41 @@ nav a:hover{
     padding:0px 10px;
 }
 main{ 
-    background-color: white; 
-    height: 500px; 
+    background-color: white;  
     margin: 0px 150px; 
+    border-radius: 0px 0px 10px 10px; 
+    max-height: 1080px; 
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.445);
 } 
 main h1{ 
     text-align: center; 
     padding: 40px 0px; 
+    font-family: var(--fonte-destaque);
+} 
+main h2{ 
+    margin-bottom: 15px; 
+    text-align: center; 
     font-family: var(--fonte-destaque);
 }
 main p{ 
     text-align: center; 
     text-indent: 10PX; 
     font-family: var(--fonte-padrão);
+} 
+.mascara{ 
+    text-align: justify; 
+    text-indent: 0px;  
+    padding-left: 260px;
+    padding-bottom: 15px;
 }
 footer{ 
-    background-color: var(--cor005);
+    background-color: var(--cor005); 
+    padding: 10px; 
+    margin-top:50px;  
+    text-align: center;
+} 
+footer p {
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.1em;
 }
