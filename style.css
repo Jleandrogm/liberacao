@@ -61,7 +61,7 @@ nav a:hover{
     padding:0px 10px;
 }
 main{ 
-    background-color: white; 
+    background-color: #F7F7F7; 
     margin: auto; 
     margin-left: 90px; 
     margin-right: 90px;
@@ -128,4 +128,13 @@ footer p {
     color: white; 
     font-weight: bold; 
     font-size: 1.1em;
+} 
+footer p a{ 
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.1em;
+} 
+footer p a:hover{ 
+    text-decoration: underline;
 }
