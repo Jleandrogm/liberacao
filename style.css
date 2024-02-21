@@ -8,7 +8,8 @@
 }
 
 *{ 
-    margin: 0; 
+    margin: 0px; 
+    padding: 0px;
 } 
  
 :root{ 
@@ -49,7 +50,7 @@ nav{
     
 } 
 nav > a{ 
-    margin: 0px 290px; 
+    margin: 10px; 
     text-decoration: none; 
     color: var(--cor005); 
     font-weight: bold; 
@@ -60,40 +61,46 @@ nav a:hover{
     padding:0px 10px;
 }
 main{ 
-    background-color: white;  
-    margin: 0px 150px; 
+    background-color: white; 
+    margin: auto; 
+    margin-left: 90px; 
+    margin-right: 90px;
     border-radius: 0px 0px 10px 10px; 
     max-height: 1080px; 
-    min-height: 300px;
+    min-height: 500px; 
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.445);
 } 
+main p{ 
+    padding: 0px 20px;
+}
 main h1{ 
     text-align: center; 
     padding: 40px 0px; 
     font-family: var(--fonte-destaque);
 } 
 main h2{ 
-    padding: 5px 0px;
-    color: white;
+    padding: 5px 0px; 
+    color: var(--cor005);
     margin-bottom: 15px; 
-    text-align: justify; 
-    text-indent: 100px;
-    font-family: var(--fonte-destaque); 
-    background-image:linear-gradient(to right,#0511F2 , transparent ) ;
-}
+    text-align: center; 
+    font-family: var(--fonte-destaque); }
 main p{ 
     text-align: center; 
     text-indent: 10PX; 
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrão); 
+    line-height: 1.3em;
 } 
-img{ 
-    width: 10%;
+img{  
+    max-width: 350px; 
+    display: block; 
+    margin: auto; 
+    margin-top: 20px;
 } 
 .mascara{ 
     text-align: justify; 
     text-indent: 0px;  
-    padding-left: 260px;
-    padding-bottom: 15px;
+    max-width: 350px; 
+    padding-bottom: 20px;
 }
 main .botão{ 
     background-color: var(--cor005); 
