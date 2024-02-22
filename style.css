@@ -97,6 +97,23 @@ main p{
     text-indent: 0px;  
     max-width: 350px; 
     padding-bottom: 20px;
+} 
+table{ 
+    
+} 
+td{ 
+    border-bottom: 1px solid black; 
+    border-top: 1px solid black; 
+    border-right: 1px solid black; 
+    text-align: center; 
+    margin: 0px; 
+    padding: 10px;
+} 
+tr{ 
+    
+} 
+th{ 
+    
 }
 .botão{ 
     background-color: var(--cor005); 
@@ -138,4 +155,4 @@ footer p a{
 } 
 footer p a:hover{ 
     text-decoration: underline;
-}
+} 
