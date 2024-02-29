@@ -98,9 +98,23 @@ main p{
     max-width: 350px; 
     padding-bottom: 20px;
 } 
-table{ 
+table{  
+    border-collapse: collapse; 
+    margin:20px; 
+    border-radius: 10px;
     
 } 
+thead{ 
+    background-color: rgb(202, 197, 197);
+} 
+thead td{ 
+    font-weight: bolder;
+}
+td{ 
+    border: 2px solid black; 
+    padding: 5px; 
+    text-align: center; 
+}
 .botão{ 
     background-color: var(--cor005); 
     padding: 20px; 
