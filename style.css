@@ -107,10 +107,7 @@ table{
 thead{ 
     background-color: rgb(202, 197, 197);
 } 
-thead td{ 
-    font-weight: bolder;
-}
-td{ 
+td, th{ 
     border: 2px solid black; 
     padding: 5px; 
     text-align: center; 
