@@ -65,7 +65,7 @@ main{
     margin: auto; 
     margin-left: 90px; 
     margin-right: 90px; 
-    max-height: 1080px; 
+    max-height: 4080px; 
     min-height: 500px; 
     box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.445); 
     background-image: url('imagens/astronalta.jpeg'); 
@@ -98,19 +98,36 @@ main p{
     max-width: 350px; 
     padding-bottom: 20px;
 } 
+div.lado-direito{ 
+    display: grid; 
+    grid-template-columns: 200px 200px 200px;
+}
 table{  
     border-collapse: collapse; 
-    padding:20px; 
-    border-radius: 10px;
+    padding:20px;
+    position: relative; 
+    width: 800px;
     
-} 
+}  
+caption{ 
+    background-color: lightgray; 
+    padding: 10px; 
+    border: 2px solid black; 
+    margin-top: 50px;
+}
 thead{ 
-    background-color: rgb(202, 197, 197);
+    background-color: rgb(202, 197, 197);   
 } 
 td, th{ 
     border: 2px solid black; 
     padding: 5px; 
     text-align: center; 
+} 
+thead, tr, th{ 
+    position: sticky;
+} 
+tbody tr:nth-child(2n){ 
+    background-color: lightgray;
 }
 .botão{ 
     background-color: var(--cor005); 
