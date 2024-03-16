@@ -137,7 +137,7 @@ thead, tr, th{
     position: sticky;
 } 
 tbody tr:nth-child(2n){ 
-    background-color: lightgray;
+    background-color:lightgray;
 }
 .botão{ 
     background-color: var(--cor005); 
