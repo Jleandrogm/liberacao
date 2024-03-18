@@ -1,0 +1,58 @@
+@charset "UTF-8";  
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+ 
+@font-face {
+    font-family: 'Neo-cybern';
+    src: url(fontes/NEO\ CYBERN.otf) format('opentype'); 
+}
+
+*{ 
+    margin: 0px; 
+    padding: 0px;
+} 
+ 
+:root{ 
+    --cor001:#EAF205; 
+    --cor002:#B0BF3B; 
+    --cor003:#0742F2; 
+    --cor004:#7E84F2; 
+    --cor005:#0511F2; 
+     
+    --fonte-destaque: "Bebas Neue", sans-serif; 
+    --fonte-padrão:Arial, Helvetica, sans-serif; 
+    --fonte-cyber:'Neo-cybern', sans-serif; 
+
+
+} 
+body{ 
+    background-color: #F7F7F7;
+} 
+table{  
+    border-collapse: collapse; 
+    padding:20px;
+    width: 800px; 
+    margin: auto;
+    
+}  
+caption{ 
+    background-color: black; 
+    color: white; 
+    padding: 10px; 
+    border: 2px solid black; 
+    margin-top: 50px;
+}
+thead{ 
+    background-color: rgb(202, 197, 197);   
+} 
+td, th{ 
+    border: 2px solid black; 
+    padding: 5px; 
+    text-align: center; 
+} 
+thead, tr, th{ 
+    position: sticky;
+} 
+tbody tr:nth-child(2n){ 
+    background-color:lightgray;
+}
